@@ -1,6 +1,7 @@
 ## Hi! I'm Varnesh Gawde
 
-I 21 years old and was born in Mumbai, India. Currently, I am a final year student of Computer Enginneering at the University of Mumbai.
+
+I am 21 years old and was born in Mumbai, India. Currently, I am a final year student of Computer Enginneering at the University of Mumbai.
 
 
 
