@@ -1,5 +1,5 @@
 ## Welcome to GitHub Pages
-![Image](https://github.com/vanu98/Varnesh-Gawde/blob/master/a.jpeg)
+![Image](https://github.com/vanu98/Varnesh-Gawde/blob/master/a.png)
 You can use the [editor on GitHub](https://github.com/vanu98/Varnesh-Gawde/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
