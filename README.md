@@ -1,12 +1,14 @@
-## Welcome to GitHub Pages
-![Image](https://github.com/vanu98/Varnesh-Gawde/blob/master/a.png)
-You can use the [editor on GitHub](https://github.com/vanu98/Varnesh-Gawde/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Hi! I'm Varnesh Gawde
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I was born in Mumbai, India and 21 years old. Currently, I am a final year student of Computer Enginneering at the University of Mumbai.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### Contact
+
+- Email: gawdevarnesh@gmail.com
+- Linkedin: [Click here!](https://www.linkedin.com/in/varnesh-g-21255b105/)
+- Github: [Click here!](https://github.com/vanu98) 
 
 ```markdown
 Syntax highlighted code block
