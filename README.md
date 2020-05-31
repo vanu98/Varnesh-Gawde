@@ -1,5 +1,6 @@
-## Hi! I'm Varnesh Gawde
+## Hi! I am Varnesh Gawde
 
+- ![](https://github.com/vanu98/Varnesh-Gawde/blob/master/Varnesh.png)
 
 I am 21 years old and was born in Mumbai, India. Currently, I am a final year student of Computer Enginneering at the University of Mumbai.
 
