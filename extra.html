@@ -1,0 +1,78 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+
+:root {
+  --size: 500px;
+  --radius: calc(var(--size) * 20 / 100);
+}
+
+body {
+  margin: 0;
+  background: #e9e9f4;
+}
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+}
+
+.image-card {
+  width: var(--size);
+  height: var(--size);
+  border-radius: var(--radius);
+  position: relative;
+  background-size: cover;
+  margin: calc(var(--size) * 20 / 100);
+}
+.image-card:before {
+  content: "";
+  position: absolute;
+  width: 90%;
+  height: 100%;
+  background-image: inherit;
+  background-size: cover;
+  border-radius: var(--radius);
+  z-index: -1;
+  filter: blur(12px);
+  opacity: 0.6;
+  left: 50%;
+  transform: translate(-50%, 10%);
+}
+
+</style>
+</head>
+<body>
+<main>
+  <div class="image-card" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fhhpblog.s3.amazonaws.com%2Fblog%2Fwordpress%2Fwp-content%2Fuploads%2F2016%2F04%2Frhythmic-dancing-shiloette-iStock_000087684873_Medium.jpg&f=1&nofb=1')">
+          <div class="w3-display-bottommiddle w3-container w3-text-white">
+            <h2>Dancing</h2>
+          </div>
+  </div>
+  
+  <div class="image-card" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Famp.businessinsider.com%2Fimages%2F5a4fa08bc32ae6df1a8b4838-750-500.jpg&f=1&nofb=1')">
+<div class="w3-display-bottommiddle w3-container w3-text-white">
+            <h2>Reading</h2>
+          </div>
+  </div>
+  
+  <div class="image-card" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pinimg.com%2Foriginals%2F49%2F13%2Fb2%2F4913b2e5d66273c83e06630856241d40.jpg&f=1&nofb=1')"><div class="w3-display-bottommiddle w3-container w3-text-white">
+            <h2>Programming</h2>
+          </div>
+  </div>
+  
+  <div class="image-card" style="background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi2-prod.mirror.co.uk%2Fincoming%2Farticle1740911.ece%2FALTERNATES%2Fs615%2FThinking%2520man.jpg&f=1&nofb=1')">
+<div class="w3-display-bottommiddle w3-container w3-text-black">
+            <h2>Thinking</h2>
+          </div>
+  </div>
+</main>
+</body>
+</html>
