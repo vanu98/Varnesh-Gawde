@@ -683,7 +683,59 @@ h1, h2, h3, h4, h5, h6, figure {
 .progress-bar.progress-bar-5 {
   background-color: #27ae60 !important;
 }
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
 
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+  
+  &:hover{
+    flex: 7;
+  }
+}
+
+.item-1 { 
+  background-image: url('https://images.hdqwalls.com/download/progamming-code-4k-nt-1125x2436.jpg');
+}
+
+.item-2 { 
+  background-image: url('https://www.wallpaperuse.com/wallp/5-54693_m.jpg');
+}
+
+.item-3 { 
+  background-image: url('https://w0.peakpx.com/wallpaper/345/273/HD-wallpaper-g-a-doodles-420-art-maryjane-potleaf-stoner-thumbnail.jpg');
+}
+
+.item-4 { 
+  background-image: url('https://i.pinimg.com/736x/c4/cc/8b/c4cc8b75c256ab7ddf810bec0d31e5fd.jpg');
+}
+
+.item-5 { 
+  background-image: url('https://wallpapercave.com/wp/wp4112644.jpg');
+}
+.conta{
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+.social{
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+  
+  img{
+    display: block;
+    width: 32px;
+  }
 .chart {
   width: 160px;
   height: 160px;
