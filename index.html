@@ -563,6 +563,205 @@
 		</div>
 	</div>
 	
+	<div id="fh5co-interests" class="animate-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+					<h2>My Interests</h2>
+					<p>Things that inspire and entertain me</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="interest-box">
+						<div class="interest-icon">
+							<i class="icon-music"></i>
+						</div>
+						<div class="interest-content">
+							<h3>Favorite Song</h3>
+							<div class="media-info">
+								<p class="title">Patience</p>
+								<p class="artist">Tame Impala</p>
+								<div class="button-group">
+									<a href="https://www.youtube.com/watch?v=rUmV-MorIKc" target="_blank" class="play-btn">
+										<i class="icon-play"></i> Watch on YouTube
+									</a>
+									<a href="https://open.spotify.com/track/2bCQHF9gdG5BNDVuEIEnNk" target="_blank" class="play-btn">
+										<i class="icon-music"></i> Listen on Spotify
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="interest-box">
+						<div class="interest-icon">
+							<i class="icon-video"></i>
+						</div>
+						<div class="interest-content">
+							<h3>Favorite YouTube Video</h3>
+							<div class="media-info">
+								<p class="title">InnerSpeaker (Live From Wave House)</p>
+								<p class="artist">Tame Impala</p>
+								<a href="https://youtu.be/d33C8IE7WnQ?si=BjEO1br9FTBenXUc" target="_blank" class="play-btn">
+									<i class="icon-play"></i> Watch on YouTube
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="interest-box">
+						<div class="interest-icon">
+							<i class="icon-film"></i>
+						</div>
+						<div class="interest-content">
+							<h3>Favorite Movie</h3>
+							<div class="media-info">
+								<p class="title">Fight Club</p>
+								<p class="artist">Director: David Fincher</p>
+								<a href="https://www.imdb.com/title/tt0137523/" target="_blank" class="play-btn">
+									<i class="icon-link"></i> View on IMDB
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<div class="interest-box">
+						<div class="interest-icon">
+							<i class="icon-book"></i>
+						</div>
+						<div class="interest-content">
+							<h3>Favorite Book</h3>
+							<div class="media-info">
+								<p class="title">Talking to My Daughter about the Economy: A Brief History of Capitalism</p>
+								<p class="artist">Yanis Varoufakis</p>
+								<a href="https://www.goodreads.com/book/show/36490332-talking-to-my-daughter-about-the-economy" target="_blank" class="play-btn">
+									<i class="icon-link"></i> View on Goodreads
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<style>
+		#fh5co-interests {
+			padding: 7em 0;
+			background: #f9f9f9;
+		}
+
+		.interest-box {
+			background: white;
+			border-radius: 15px;
+			padding: 2em;
+			margin-bottom: 2em;
+			display: flex;
+			align-items: center;
+			transition: all 0.3s ease;
+			box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+		}
+
+		.interest-box:hover {
+			transform: translateY(-5px);
+			box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+		}
+
+		.interest-icon {
+			font-size: 2.5em;
+			color: #2c98f0;
+			margin-right: 1em;
+			width: 60px;
+			text-align: center;
+		}
+
+		.interest-content {
+			flex-grow: 1;
+		}
+
+		.interest-content h3 {
+			color: #2c98f0;
+			font-size: 1.2em;
+			margin-bottom: 0.5em;
+			font-weight: 600;
+		}
+
+		.media-info {
+			background: rgba(44, 152, 240, 0.05);
+			padding: 1em;
+			border-radius: 10px;
+		}
+
+		.media-info .title {
+			font-size: 1.1em;
+			font-weight: 600;
+			color: #333;
+			margin: 0;
+		}
+
+		.media-info .artist {
+			color: #666;
+			margin: 0.3em 0 1em 0;
+			font-size: 0.9em;
+		}
+
+		.play-btn {
+			display: inline-flex;
+			align-items: center;
+			color: #2c98f0;
+			text-decoration: none;
+			font-size: 0.9em;
+			transition: all 0.3s ease;
+		}
+
+		.play-btn i {
+			margin-right: 0.5em;
+		}
+
+		.play-btn:hover {
+			color: #1a75c7;
+			text-decoration: none;
+		}
+
+		.button-group {
+			display: flex;
+			gap: 1em;
+			flex-wrap: wrap;
+		}
+
+		.button-group .play-btn {
+			flex: 1;
+			min-width: 140px;
+			text-align: center;
+			padding: 0.5em 1em;
+			background: rgba(44, 152, 240, 0.1);
+			border-radius: 5px;
+		}
+
+		.button-group .play-btn:hover {
+			background: rgba(44, 152, 240, 0.2);
+		}
+
+		@media screen and (max-width: 768px) {
+			#fh5co-interests {
+				padding: 4em 0;
+			}
+
+			.interest-box {
+				padding: 1.5em;
+			}
+
+			.interest-icon {
+				font-size: 2em;
+				width: 50px;
+			}
+		}
+	</style>
+
 	<div id="fh5co-consult">
 		<div class="video fh5co-video" style="background-image: url(images/original.png);">
 			<div class="overlay"></div>
